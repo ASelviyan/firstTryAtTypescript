@@ -1,2 +1,2 @@
-My first try at typescript! # firstTryAtTypescript
-Working with Numbers, String, and Booleans types
+My first try at typescript! 
+Working with Numbers, String, and Booleans types.
