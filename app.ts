@@ -18,3 +18,17 @@ const printResult = true;
 const resultPhase = 'Result is: ';
 
 add(number1, number2, printResult, resultPhase)
+
+
+
+//---------------------------------------------------------------------
+//LITERAL TYPES
+//below is a literal type: literal type is when you make a variable an exact value instead of a a specific type (string or number)
+//so the literalType variable below can only be identified as the number 5 or 10 and no other number or type!
+let literalType: 5 | 10 // <--- (this is how you make literal types)
+//the code below has is having an error because typescript is telling the code that the literalType variable can only have the 5 or 10 variables assigned to it  
+literalType = 6
+//but this code doesn't have a problem because a 5 is being a assigned to it 
+literalType = 5
+
+
