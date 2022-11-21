@@ -19,7 +19,7 @@ const resultPhase = 'Result is: ';
 
 add(number1, number2, printResult, resultPhase)
 
-
+console.log("hello")
 
 //---------------------------------------------------------------------
 //LITERAL TYPES
